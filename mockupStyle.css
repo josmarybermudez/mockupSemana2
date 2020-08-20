@@ -1,0 +1,56 @@
+body , footer {padding: 0; margin: 0; box-sizing: border-box; font-family: arial; background-color: rgb(204, 204, 204);}
+nav {
+    height: 70px;
+    width: 900px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #37b270;
+    display: flex;
+    justify-content: space-between;}
+nav div {width: 450px; }
+nav div h1 {
+    width:300px; 
+    color:#1e683a;
+    margin: 5px 20px;}
+nav div ul {display: flex; flex-direction: row; margin: 0; height: 70px;}
+nav div ul a {
+    line-height: 2.5;
+    padding: 10px; 
+    font-variant: small-caps; 
+    font-weight: bold;
+    color: black; 
+    text-decoration: none;}
+nav div ul a:hover {
+    background-color: #2a7045; 
+    color: white;}
+section {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px auto;
+    }
+
+/*section*/
+.section1 img {width: 300px; margin: 0 10px 0 0;}
+.section1 article {background-color: #bef4c7; padding: 5px;}
+.section1 p {text-align: justify;}
+
+/*section 2*/
+.section2 article {background-color: #bef4c7; padding: 5px;}
+.section2 article p {width: 300px; text-align: justify;}
+.section2 img {width: 300px; margin: 0 10px;}
+.section2 aside {background-color: #bef4c7; padding: 5px;}
+.section2 aside p {
+    color: chocolate; 
+    font-size: 35px; 
+    padding: 10px;}
+/*section*/
+.section3 aside img {width: 900px;
+height: 300px; margin: 0; padding:0;}
+footer {width: 900px; margin: 0 auto; padding: 10px; background-color: black;}
+/*footer*/
+footer section p {
+    width: 300px; 
+    color: white;
+    text-align: justify;
+}
